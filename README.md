@@ -34,30 +34,6 @@ This project replicates a high-end UI design with smooth animations while mainta
 
 ---
 
-## 📂 Project Structure
-
-```
-src/
-│── components/
-│   ├── Navbar.jsx
-│   ├── Hero.jsx
-│   ├── QuoteSection.jsx
-│   ├── ProcessSection.jsx
-│   ├── StatsSection.jsx
-│   ├── Gallery.jsx
-│   ├── InfoSection.jsx
-│   ├── CTAForm.jsx
-│
-│── pages/
-│   ├── Home.jsx
-│
-│── assets/
-│   ├── images/
-│
-│── App.jsx
-│── main.jsx
-```
-
 ---
 
 ## 🎨 Sections Included
@@ -82,40 +58,7 @@ Implemented using **Framer Motion**:
 * Smooth button hover transitions
 * Subtle shadow and depth effects
 
-> ⚠️ Note: Animations are intentionally minimal to preserve the original UI design.
 
----
-
-## ⚙️ Installation & Setup
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/architecture-landing-page.git
-cd architecture-landing-page
-```
-
-### 2. Install Dependencies
-
-```bash
-npm install
-```
-
-### 3. Run Development Server
-
-```bash
-npm run dev
-```
-
----
-
-## 📦 Build for Production
-
-```bash
-npm run build
-```
-
----
 
 ## 📱 Responsiveness
 
@@ -138,11 +81,6 @@ npm run build
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots of your project here
-
----
 
 ## 🙌 Acknowledgements
 
@@ -150,17 +88,4 @@ npm run build
 * Tailwind CSS for rapid UI development
 * Framer Motion for elegant animations
 
----
 
-## 📬 Contact
-
-**Your Name**
-
-* GitHub: https://github.com/your-username
-* LinkedIn: https://linkedin.com/in/your-profile
-
----
-
-## 📄 License
-
-This project is for educational and portfolio purposes.
