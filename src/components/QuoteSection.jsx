@@ -26,7 +26,7 @@ const QuoteSection = () => {
         transition={{ duration: 1, delay: 0.2 }}
         className="relative w-full max-w-6xl h-[600px] group"
       >
-        {/* Frame Accents */}
+   {/* Frame Accents */}
         <div className="absolute -top-4 -left-4 w-3/4 h-3/4 border-[12px] border-arch-accent -z-10"></div>
         <div className="absolute -bottom-4 -right-4 w-3/4 h-3/4 border-[12px] border-arch-accent -z-10"></div>
         

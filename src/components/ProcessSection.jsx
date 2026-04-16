@@ -14,7 +14,7 @@ const ProcessStep = ({ number, title, image, description }) => {
       transition={{ duration: 0.8 }}
       className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 items-start py-20 border-b border-white/10 last:border-b-0"
     >
-      {/* Left Column: Number & Title */}
+{/* Left Column: Number & Title */}
       <div className="lg:col-span-4">
         <div className="flex flex-col gap-6">
           <div className="flex flex-col gap-2">

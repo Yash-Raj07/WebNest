@@ -88,7 +88,7 @@ const GallerySection = () => {
             </motion.p>
           </div>
 
-          {/* Right Column: Overlapping Images */}
+{/* Right Column: Overlapping Images */}
           <div className="lg:col-span-8 relative h-[600px] mt-12 lg:mt-32">
             {/* Background Image (Horses) */}
             <motion.div 
