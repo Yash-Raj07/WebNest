@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --arch-bg: #FFFFFF;
+  --arch-dark: #1A1A1A;
+  --arch-accent: #C59D5F;
+  --arch-text-muted: #7D7D7D;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-arch-bg text-arch-dark font-sans overflow-x-hidden;
+}
+
+@layer components {
+  .section-padding {
+    @apply py-20 px-6 md:px-12 lg:px-24;
+  }
+  
+  .btn-pill {
+    @apply px-8 py-2.5 border border-arch-accent text-arch-dark rounded-full transition-all duration-300 hover:bg-arch-accent hover:text-white flex items-center gap-2 text-sm font-medium;
+  }
+  
+  .heading-serif {
+    @apply font-serif;
+  }
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}
