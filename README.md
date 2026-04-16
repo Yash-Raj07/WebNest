@@ -6,9 +6,8 @@ This project replicates a high-end UI design with smooth animations while mainta
 ---
 
 ## 🚀 Live Demo
-
-> Add your deployed link here
-> Example: https://your-project.vercel.app
+ 
+> (https://web-nest-gamma.vercel.app/)
 
 ---
 
