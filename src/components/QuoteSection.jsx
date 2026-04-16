@@ -26,19 +26,17 @@ const QuoteSection = () => {
         transition={{ duration: 1, delay: 0.2 }}
         className="relative w-full max-w-6xl h-[600px] group"
       >
-    {/* Frame Accents */}
-<div className="relative">
-  <div className="top-0 left-0 w-full h-full border-2 border-blue-500 z-10"></div> 
-  <div className="absolute bottom-0 right-0 w-full h-full border-2 border-green-500"></div> 
-  
-  <div className="overflow-visible shadow-sm"> 
-    <img 
-      src="image.jpg" 
-      alt=""           
-      className="object-contain transition duration-200 hover:scale-125" 
-    />
-  </div>
-</div>
+   {/* Frame Accents */}
+        <div className="absolute -top-4 -left-4 w-3/4 h-3/4 border-[12px] border-arch-accent -z-10"></div>
+        <div className="absolute -bottom-4 -right-4 w-3/4 h-3/4 border-[12px] border-arch-accent -z-10"></div>
+        
+        <div className="overflow-hidden h-full shadow-2xl relative">
+          <img 
+            src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1600" 
+            alt="Modern Architecture" 
+            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+        </div>
       </motion.div>
     </section>
   );
