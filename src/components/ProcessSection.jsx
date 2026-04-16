@@ -1,6 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
+import designImg from '../assets/Rectangle 17.png';
+import pricingImg from '../assets/Rectangle 18.png';
+import implementationImg from '../assets/Rectangle 19.png';
 
 const ProcessStep = ({ number, title, image, description }) => {
   return (
@@ -58,19 +61,19 @@ const ProcessSection = () => {
     {
       number: 1,
       title: "Design",
-      image: "src/assets/Rectangle 17.png",
+      image: designImg,
       description: "The design stage begins by developing an understanding of our clients' needs and predispositions in an initial consultation with one of our designers. After this dialogue, we present the first draft of the design with a full explanation of our suggestions and their rationale. After client feedback, we rework our design to include any required modifications. After their approval we finalize the design and take full measurements.",
     },
     {
       number: 2,
       title: "Pricing and Materials Approval",
-      image: "src/assets/Rectangle 18.png",
+      image: pricingImg,
       description: "Once full measurements have been calculated and quantities estimated, we present a comprehensive cost analysis, giving clients a range of material options commensurate with their project and budget.",
     },
     {
       number: 3,
       title: "Implementation",
-      image: "src/assets/Rectangle 19.png",
+      image: implementationImg,
       description: "After approving the plans and with the clients' approval of carefully chosen materials, we carry out the finishing and decoration work, monitoring the fit-out throughout its progress. After this, we provide our clients with peace of mind thanks to our aftersales service.",
     },
   ];

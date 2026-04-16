@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Play } from 'lucide-react';
+import heroMain from '../assets/Rectangle 7.png';
+import heroDetail from '../assets/Rectangle 10.png';
 
 const Hero = () => {
   return (
@@ -44,7 +46,7 @@ const Hero = () => {
           <div className="relative w-40 ml-auto group">
             <div className="absolute -top-1 left-0 w-full h-1 bg-arch-accent z-10"></div>
             <img 
-              src="src/assets/Rectangle 10.png" 
+              src={heroDetail} 
               alt="Architecture Detail" 
               className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105"
             />
@@ -66,7 +68,7 @@ const Hero = () => {
           
           <div className="overflow-hidden shadow-2xl">
             <img 
-              src="src/assets/Rectangle 7.png" 
+              src={heroMain} 
               alt="Main Modern Architecture" 
               className="w-full h-[500px] object-cover"
             />

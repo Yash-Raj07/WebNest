@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowUpRight, ArrowRight } from 'lucide-react';
+import infoImg from '../assets/Rectangle 20.png';
 
 const InfoSection = () => {
   const items = [
@@ -61,7 +62,7 @@ const InfoSection = () => {
         <div className="absolute top-0 left-0 w-full h-4 bg-arch-accent z-10"></div>
         <div className="overflow-hidden shadow-2xl">
           <img 
-            src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1600" 
+            src={infoImg} 
             alt="Interior Architecture" 
             className="w-full aspect-[4/5] object-cover transition-transform duration-700 group-hover:scale-105"
           />

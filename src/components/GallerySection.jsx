@@ -1,5 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import bustImg from '../assets/Rectangle 12.png';
+import horsesImg from '../assets/Rectangle 15.png';
+import archwayImg from '../assets/Rectangle 16.png';
 
 const StatsSection = () => {
   const stats = [
@@ -68,7 +71,7 @@ const GallerySection = () => {
               <div className="absolute top-0 left-0 w-full h-4 bg-arch-accent z-10"></div>
               <div className="overflow-hidden h-full shadow-lg">
                 <img 
-                  src="src/assets/Rectangle 12.png" 
+                  src={bustImg} 
                   alt="Classical Bust" 
                   className="w-full h-full object-cover grayscale"
                 />
@@ -97,7 +100,7 @@ const GallerySection = () => {
               <div className="absolute -top-4 -right-4 w-full h-full border-[12px] border-arch-accent -z-10"></div>
               <div className="overflow-hidden h-full shadow-2xl">
                 <img 
-                  src="src/assets/Rectangle 15.png" 
+                  src={horsesImg} 
                   alt="Horse Statues" 
                   className="w-full h-full object-cover"
                 />
@@ -114,7 +117,7 @@ const GallerySection = () => {
             >
               <div className="overflow-hidden h-full shadow-2xl border-4 border-white">
                 <img 
-                  src="src/assets/Rectangle 16.png" 
+                  src={archwayImg} 
                   alt="Garden Archway" 
                   className="w-full h-full object-cover"
                 />
