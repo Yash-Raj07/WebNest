@@ -86,23 +86,22 @@ const GallerySection = () => {
           </div>
 
           {/* Right Column: Overlapping Images */}
-          <div className="lg:col-span-8 relative h-[600px] mt-12 lg:mt-32">
-            {/* Background Image (Horses) */}
-            <motion.div 
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              className="absolute top-0 right-0 w-3/4 aspect-[4/3] group z-0"
-            >
-              <div className="absolute -top-4 -right-4 w-full h-full border-[12px] border-arch-accent -z-10"></div>
-              <div className="overflow-hidden h-full shadow-2xl">
-                <img 
-                  src="src/assets/Rectangle 15.png" 
-                  alt="Horse Statues" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </motion.div>
+<div className="lg:col-span-6 relative h-[400px] mt-6">
+  {/* Background Image (Horses) */}
+  <motion.div 
+    initial={{ opacity: 1, scale: 1.2 }}   
+    whileInView={{ opacity: 1 }}           
+    className="absolute top-10 left-0 w-full h-full z-10" // 
+  >
+    <div className="border-4 border-red-500"> 
+      <img 
+        src="/assets/Rectangle15.png"   
+        alt=""                          
+        className="object-contain"     
+      />
+    </div>
+  </motion.div>
+</div>
 
             {/* Foreground Image (Archway) */}
             <motion.div 
